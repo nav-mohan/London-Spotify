@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>London Spotify</title>
+	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3-scale-radial.js"></script>
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
+	<!-- <link rel="stylesheet" href="https://nav-mohan.github.io/London_Spotify/style.css"> -->
+	<!-- <script src="d3v4.js"></script> -->
+	<!-- <script src="d3-scale-radial.js"></script> -->
+	<!-- <script src = "d3-tip.js"></script> -->
+	<link rel="stylesheet" href="style.css">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+</head>
+<body class = 'dark-theme'>
+	<div id = 'wrapper'>
+	<div class = "header">
+		<p class = 'kicker'> culture</p>
+		<h1 class = 'headline'> A Data-Dig of London's Music Scene</h1>
+		<h2 class = 'subhead'> Exploring the diversity of the Forest City, through numbers.</h2>
+		<img class = "image-lead" src = "London_Spotify_Banner.JPG">
+		<p class = "chart-source"></p>
+		<p class = "byline"> By Navaneeth Mohan</p>
+		<p class = "date"> PUBLISHED September, 2020</p>
+	</div>
+
+	<main>
+		<div class = 'story-body'>
+			<div class = 'story'>
+					<p>Last week's Forest City London Music Awards was a big hit. If there was one thing that it showed us is that, London is known for its rich and varied music scene. Being the nerd that I am I decided to explore the music scene through numbers. After some digging around with a music api and data wrangling (see methods), I was quite pleased to see what showed up. Scroll below to take a look yourself!</p>
+			</div>
+
+			<p class ="chart-title">Make Some Noise!</p>
+			<div id = "chart-1"></div>
+
+			<div class = 'story'>
+				<p>Looking at the loudness scale, the Forest City's diversity of music is evident. London is home to bands like Kavara (Death Metal), Heart Attack Kids (Punk), and Single Mothers (Punk Rock) who routinely peak the levels but, one can also get the smooth kinds of Westminster Park, Carly Thomas, and Yessica Wohneil.</p>
+			</div>
+			
+			
+			<p class ="chart-title">London's Least Favourite Scale?</p>
+			<div id = 'chart-2'></div>
+
+			<div class = 'story'>
+				<p> For some reason, London bands seem to stay away from the key of D# when composing their songs. While I haven't looked into whether this is common across Canadian/North-American music genres, if anyone has an explaination do let me know please! </p>
+			</div>
+
+			<p class ="chart-title">Simple vs Complex</p>
+			<div id = 'chart-3'></div>
+
+			<div class = 'story'>
+				<p> After looking at the previous plot of keys I was curious how many keys do artists usually use when composing a song? Below is a chart that depicts the number of keys that each artist most commonly used in their songs. While most artist prefer to stick to 3 or 4 keys in a song, techno artist Jesney and alt-rock Whoop-Szo tend to change it up quite a lot. On the other end of the spectrum, some artists like the hugely successful Texas King, prefer to use just 2 keys usually. Indeed, simplicity is key. </p>
+			</div>
+		</div>
+	</main>
+
+	<div class = "footer">
+		<p class = 'notes'> Data and Methods</p>
+		<p class = 'notes'> The data was acquired through the <a href = "https://developer.spotify.com/">Spotify API</a>. The API labels individual tracks with metrics such as loudness, key, and tempo.These metrics are based on Spotify's algorithmic analysis of the individual track and may be subject to some error. I then cleaned up the data and used relevant slices of it using Python. </p>
+		<p class = "notes">The full code can be <a href = "https://github.com/nav-mohan/London_Spotify"> viewed here</a>. </p>
+	</div>
+
+	<script type="text/javascript">
+		// URLs to  Dataset
+		// var url_loudnessData = "https://raw.githubusercontent.com/nav-mohan/London_Spotify/master/loudnessData.csv";
+		// var url_keysData = "https://raw.githubusercontent.com/nav-mohan/London_Spotify/master/keyData.csv";
+		// var url_artist = "https://raw.githubusercontent.com/nav-mohan/London_Spotify/master/keys_per_song.csv";
+		var url_loudnessData = "data/loudnessData.csv";
+		var url_keysData = "data/keyData.csv";
+		var url_artist = "data/keys_per_song.csv";
+
+		var margin1 = {top: 10, right: 10, bottom: 10, left: 10};
+		var width1 = 460 - margin1.left - margin1.right;
+		var height1 = 460 - margin1.top - margin1.bottom;
+		var viewboxwidth1 = 460;
+		var viewboxheight1 = 460;
+		var innerRadius = Math.min(width1,height1)/8;
+		var outerRadius = Math.min(width1,height1)/2;
+
+		var svg1 = d3.select("#chart-1")
+			.append("svg")
+		    .attr("viewBox", "0 0 "+ viewboxwidth1 +" "+ viewboxheight1)
+		    // .attr("preserverAspectRatio","xMidyMid meet")
+		    .classed("svg-content-responsive", true)
+		    .append("g")
+		    .attr("transform", "translate(" + width1/2 + "," + ( height1/2 + 20 )+ ")"); 
+
+	    var tool_tip1 = d3.tip()
+	      .attr("class", "d3-tip")
+	      .offset([0, 0])
+	      .html(function(d) { return "<b>"+d.name+"</b>" + "<br/>" + d.artist + "<br/>" + d.loudness+" <b>dB</b>" });
+	    svg1.call(tool_tip1);
+
+		var barPlot1 = svg1.append("g");
+
+		var plotScale1 = svg1.append("g");
+
+		d3.csv(url_loudnessData, function(loudData){
+
+			var X1 = d3.scaleBand()
+				.range([0,2*Math.PI])
+				.align(0)
+				.domain(loudData.map(function(d){return d.name;}));
+
+			var Y1 = d3.scaleRadial()
+				.range([innerRadius,outerRadius])
+				.domain([-26,0]);
+
+			plotScale1.selectAll("circle")
+				.data([-26,-21,-16,-11,-6,-1])	
+				.enter()
+				.append("circle")
+					.attr("cx",0)
+					.attr("cy",0)
+					.attr("r",function(d){return Y1(d)})
+					.attr("class","circleScale") 
+			
+			plotScale1.selectAll("text")
+				.data([-26,-21,-16,-11,-6,-1])	
+				.enter()
+				.append('text')
+					.attr('text-anchor','middle')
+					.attr('x',0)
+					.attr('y',function(d){return -Y1(d)})
+					.text(function(d){return d+" dB"})
+					.attr("class","tickScale")
+
+			barPlot1.selectAll("path")
+				.data(loudData)
+				.enter()
+				.append("path")
+					.attr("fill","#12d06b")
+					.attr("d",d3.arc()
+						.innerRadius(innerRadius)
+						.outerRadius(function(d){return Y1(d.loudness);})
+						.startAngle(function(d){return X1(d.name);})
+						.endAngle(function(d){return X1(d.name)+X1.bandwidth();})
+						.padAngle(0.01)
+						.padRadius(innerRadius/2))
+					.on("mouseover", function(d){
+						d3.select(this).style("fill","#8358d3")
+						tool_tip1.show(d,this)
+						})
+					.on("mouseout",function(d){
+						d3.select(this).style("fill","#12d06b")
+						tool_tip1.hide(d,this)
+					})
+					.on("click", function(d){
+						d3.select(this).style("fill","#8358d3")
+						tool_tip1.show(d,this)
+						})
+
+		});	  
+
+
+		var margin2 = {top: 30, right: 30, bottom: 30, left: 60};
+		var viewboxwidth2 = 520;
+		var viewboxheight2 = 400;
+		var width2 = viewboxwidth2 - margin2.left - margin2.right;
+		var height2 = viewboxheight2- margin2.top - margin2.bottom;
+
+
+		var svg2 = d3.select("#chart-2")
+			.append("svg")
+			    .attr("viewBox", "0 0 "+ viewboxwidth2 +" "+ viewboxheight2)
+			    .classed("svg-content-responsive", true)
+		    .append("g")
+			    .attr("transform", "translate(" + margin2.left + "," + (margin2.top)+ ")"); 
+
+	    var tool_tip2 = d3.tip()
+	      .attr("class", "d3-tip")
+	      .offset([-8, 0])
+	      .html(function(d) { return "Key: " + d.key + "<br/>" + d.count + " songs" });
+	    svg2.call(tool_tip2);
+
+		d3.csv(url_keysData,function(keyData){
+
+			var xAxis = d3.scaleLinear()
+				.domain([0,75])
+				.range([0,width2])
+
+			var yAxis = d3.scaleBand()
+				.range([0,height2])
+				.domain(keyData.map(function(d){return d.key}))
+				.padding(0.1)
+
+			svg2.selectAll("rect")
+				.data(keyData)
+				.enter()
+				.append("rect")
+					.attr("x",xAxis(0))
+					.attr("y",function(d){return yAxis(d.key);})
+					.attr("width",function(d){return xAxis(d.count);})
+					.attr("height",yAxis.bandwidth())
+					.attr("fill","#12d06b")
+				.on("mouseover", function(d){
+					d3.select(this).style("fill","#8358d3")
+					tool_tip2.show(d,this)
+					})
+				.on("mouseout",function(d){
+					d3.select(this).style("fill","#12d06b")
+					tool_tip2.hide(d,this)
+				})
+				.on("click", function(d){
+					d3.select(this).style("fill","#8358d3")
+					tool_tip2.show(d,this)
+					})
+
+			svg2.append("g")
+				.attr("transform","translate(0," + height2 + ")")
+				.call(d3.axisBottom(xAxis))
+				.selectAll("text")
+					.attr("class","bigLabel")
+					.attr("transform", "translate(-10,0)rotate(-45)")
+					.attr("text-anchor","end");
+			svg2.append("g")
+				.call(d3.axisLeft(yAxis))
+				.selectAll("text")
+					.attr("class","bigLabel")
+
+
+		})
+
+		var margin3 = {top: 10, right: 30, bottom: 120, left: 20};
+		var viewboxwidth3 = 1020;
+		var viewboxheight3 = 400;
+		var width3 = viewboxwidth3 - margin3.left - margin3.right;
+		var height3 = viewboxheight3 - margin3.top - margin3.bottom;
+
+
+
+		var svg3 = d3.select("#chart-3")
+			.append("svg")
+		    	.attr("viewBox", "0 0 "+ viewboxwidth3 +" "+ viewboxheight3)
+		    	.classed("svg-content-responsive", true)
+			.append("g")
+				.attr("transform","translate(" + margin3.left + "," + margin3.top + ")");
+
+	    var tool_tip3 = d3.tip()
+	      .attr("class", "d3-tip")
+	      .offset([0, 0])
+	      .html(function(d) { return "<b>"+d.artist+"</b>" + "<br/>" + d.keys_used + " keys used"});
+	    svg3.call(tool_tip3);
+
+		d3.csv(url_artist,function(artistData){
+
+			var x3 = d3.scaleBand()
+				.range([0,width3])
+				.domain(artistData.map(function(d){return d.artist}))
+				.padding(0.1);
+
+			svg3.append("g")
+				.attr("transform", "translate(0," + height3 + ")")
+				.call(d3.axisBottom(x3))
+				.selectAll("text")
+					.style("font-size","11px")
+					.attr("transform", "translate(-10,0)rotate(-45)")
+					.style("text-anchor",'end');
+
+			var y3 = d3.scaleLinear()
+				.domain([0,7])
+				.range([height3,0])
+			
+			const yAxisTicks = y3.ticks().filter(tick => Number.isInteger(tick));
+
+			var yAxis3 = svg3.append("g")
+					.call(d3.axisLeft(y3)
+						.tickValues(yAxisTicks)
+						.tickFormat(d3.format('d')))
+					.selectAll('text')
+						.style("font-size","20px")
+
+			svg3.selectAll("rect")
+				.data(artistData)
+				.enter()
+				.append("rect")
+					.attr("x",function(d){return x3(d.artist)})
+					.attr("y",function(d){return y3(d.keys_used)})
+					.attr("width",x3.bandwidth())
+					.attr("height",function(d){return height3-y3(d.keys_used);})
+					.attr("fill","#12d06b")
+				.on("mouseover", function(d){
+					d3.select(this).style("fill","#8358d3")
+					tool_tip3.show(d,this)
+					})
+				.on("mouseout",function(d){
+					d3.select(this).style("fill","#12d06b")
+					tool_tip3.hide(d,this)
+				})
+				.on("click", function(d){
+					d3.select(this).style("fill","#8358d3")
+					tool_tip3.show(d,this)
+					})	
+
+	})
+	</script>
+</body>
+</html>

@@ -1,0 +1,505 @@
+,name,artist,loudness,max_loudness
+0,Chandelier,Texas King,-8.477,-5.96
+1,Only One,Texas King,-6.208,-4.876
+2,Boomerang,Texas King,-6.843,-5.901
+3,Flowers,Texas King,-7.006,-5.273
+4,Greatest Mistake,Texas King,-5.106,-3.721
+5,Circles,Texas King,-6.191,-5.033
+6,All We Are,Texas King,-6.699,-5.488
+7,Wake Up,Texas King,-5.801,-4.517
+8,Tomorrow,Texas King,-7.488,-4.539
+9,Baby,Texas King,-6.935,-5.282
+10,Fake Answers,Lost In Japan,-7.552,-6.169
+11,Never Was You,Lost In Japan,-7.347,-6.572
+12,Ego,Lost In Japan,-5.948,-3.254
+13,Don't Wanna Let Go,Lost In Japan,-5.493,-4.522
+14,Animal,Lost In Japan,-10.77,-8.298
+15,Message in the Stars,Lost In Japan,-6.961,-5.703
+16,Good for Now,Lost In Japan,-8.104,-6.188
+17,Orpheus,Lost In Japan,-9.383,-6.909
+18,Wake Up,Lost In Japan,-9.813,-5.268
+19,For Your Heart,Lost In Japan,-7.445,-5.862
+23,The Devil You Know,Leanne Mayer,-6.328,-5.383
+24,Renegade,Leanne Mayer,-6.167,-4.88
+25,Whatever Will Be,Leanne Mayer,-7.05,-5.268
+26,Afterglow,Leanne Mayer,-6.364,-3.25
+27,See Through Lies,Leanne Mayer,-5.702,-3.166
+28,Undertow,Leanne Mayer,-5.754,-4.287
+30,Downfall,Roisin Gordon,-6.661,-5.619
+31,Alicia,Roisin Gordon,-7.838,-5.531
+32,Same Lies,Roisin Gordon,-8.874,-5.696
+33,Happy Days,Roisin Gordon,-9.529,-8.194
+34,Left Here,Roisin Gordon,-7.817,-5.096
+35,Denial Wine,Roisin Gordon,-12.045,-11.231
+36,Coffee Table,Roisin Gordon,-11.091,-9.29
+37,Lose Each Other,Roisin Gordon,-10.562,-6.578
+38,Didn't Feel Right,Roisin Gordon,-8.204,-5.425
+39,Want You so Bad,Sarina Haggarty,-8.591,-6.154
+40,Missing You,Sarina Haggarty,-8.451,-6.418
+41,Drowning in Your Love,Sarina Haggarty,-10.143,-8.121
+42,Meant to Be,Sarina Haggarty,-6.713,-5.442
+44,Distracted,Sarina Haggarty,-6.783,-5.037
+45,Obsessed,Sarina Haggarty,-6.797,-5.678
+46,Distracted (Live),Sarina Haggarty,-6.573,-6.016
+47,Pretend,Sarina Haggarty,-8.44,-6.246
+48,Find a Way Back,Sarina Haggarty,-8.179,-7.574
+49,Best Believe (feat. Connor Morand),Various Artists,-6.641,-3.857
+53,Prove,NASIUMM,-8.964,-6.815
+54,Double Cup,NASIUMM,-9.237,-8.07
+55,40 on Me,NASIUMM,-13.911,-12.921
+56,Static,NASIUMM,-11.613,-9.518
+57,Lego,NASIUMM,-13.772,-12.456
+58,Sponge Bobbin,NASIUMM,-11.806,-10.778
+59,Scene,NASIUMM,-12.852,-11.254
+60,Flag,NASIUMM,-18.046,-17.115
+61,Rosé,NASIUMM,-12.679,-11.426
+62,Zoom,NASIUMM,-18.111,-16.678
+63,Swaggy B,Fonzy,-8.106,-7.202
+64,Strobe Lights,Various Artists,-9.064,-7.87
+65,Kultura,Fonzy,-6.306,-4.946
+66,Giving Up,Fonzy,-6.486,-4.998
+67,Idly,Fonzy,-10.806,-9.029
+68,Sinulog SZN,Fonzy,-7.685,-6.369
+69,Ass Bounce,Fonzy,-9.97,-7.287
+70,Cool2gether,Fonzy,-3.424,-2.206
+71,Intuition,Fonzy,-4.233,-2.611
+72,Forget U,Fonzy,-6.435,-4.959
+76,White T-Shirt,DIME,-12.417,-10.868
+77,Under Water,DIME,-8.222,-6.627
+78,Lover Boy,DIME,-6.678,-5.151
+79,I Won't Stay,DIME,-5.416,-3.831
+80,Growing Old with You,Jessica Allossery,-15.02,-12.862
+81,I'll Let You Go,Jessica Allossery,-15.05,-12.758
+82,I'll Let You Go (Live),Jessica Allossery,-13.172,-11.028
+83,Open Sea,Jessica Allossery,-13.729,-11.523
+84,My Little Girl (Bedroom Sessions),Jessica Allossery,-17.923,-15.74
+85,Change the World,Jessica Allossery,-6.517,-4.76
+86,Dear Daughter,Jessica Allossery,-13.342,-11.349
+87,Water,Jessica Allossery,-12.786,-10.146
+88,Riptide Girl,Jessica Allossery,-12.723,-10.381
+89,My Little Girl,Jessica Allossery,-13.316,-12.097
+90,Love Language,Justin Maki,-8.724,-6.318
+91,I Can Be,Justin Maki,-9.378,-6.931
+92,Afternoon Delight,Justin Maki,-7.194,-6.309
+93,Plan for My Life,Justin Maki,-10.372,-7.395
+94,Potent Memories,Justin Maki,-11.281,-10.608
+95,Devout,Justin Maki,-10.771,-7.281
+96,Hard to Get,Justin Maki,-9.421,-7.629
+97,Weightless,Lost Arts,-8.116,-5.894
+98,Best Wishes,Lost Arts,-6.109,-4.815
+99,Taking Bets,Lost Arts,-7.558,-6.288
+100,Explain Me Away,Lost Arts,-7.153,-5.433
+101,Poetry is Dead,Lost Arts,-8.345,-6.952
+102,Glass House,Lost Arts,-6.344,-5.567
+103,Waist Down,Lost Arts,-5.034,-3.844
+104,The Toll,Fun Fact,-7.814,-4.894
+105,Will Agnew,Fun Fact,-6.615,-5.408
+106,Star Spangled Bass,Fun Fact,-8.554,-6.139
+107,Morning High,Fun Fact,-7.779,-6.52
+108,Bring It Back,Fun Fact,-8.302,-7.612
+109,Mary Jane,Fun Fact,-6.517,-6.133
+110,I Bet She Knows,Fun Fact,-8.12,-7.021
+111,I'm Yours,Fun Fact,-5.532,-4.834
+112,If You Don't Love Me,Fun Fact,-7.795,-5.0
+113,Why Must We Wait,Fun Fact,-6.026,-4.957
+114,Song for Tom,Sneaker Club,-7.635,-5.368
+115,Seventeen,Sneaker Club,-8.834,-6.621
+116,Hey Honey,Sneaker Club,-5.112,-3.453
+117,Where We Land,Sneaker Club,-5.597,-4.057
+118,Get Up,Julia Haggarty,-7.768,-3.987
+119,Overthinking You,Julia Haggarty,-4.841,-3.736
+120,One Last Time,Julia Haggarty,-13.018,-10.371
+121,I Can't Stand Still,Julia Haggarty,-4.013,-2.442
+122,Don't Tell Me It's Christmas,Charlie Weber,-11.109,-9.227
+123,Paradise,Julia Haggarty,-10.851,-9.085
+124,I Think I Like You,Julia Haggarty,-4.151,-2.528
+125,Blarney,Julia Haggarty,-8.724,-3.67
+126,You Let Me Dream,Julia Haggarty,-4.461,-3.285
+127,Let Me Sleep,Julia Haggarty,-8.026,-4.439
+128,Far From the Madding Crowd,Charlie Weber,-12.857,-12.263
+129,Laymans Handbook,Charlie Weber,-13.007,-12.795
+130,Mystic River,Charlie Weber,-13.823,-12.842
+131,Six Days of the Condor,Charlie Weber,-12.976,-11.353
+132,The Dark Is Rising,Charlie Weber,-12.058,-11.314
+133,The Dragon with the Girl Tattoo,Charlie Weber,-12.301,-11.79
+134,The Skull of the Waltzing Clown,Charlie Weber,-14.233,-13.658
+135,Where Late the Sweet Birds Sang,Charlie Weber,-11.287,-10.515
+136,WolfSpeaker,Charlie Weber,-12.863,-12.128
+137,Your Feets Too Big,Charlie Weber,-12.766,-12.099
+138,Front Row,Carly Thomas,-7.403,-5.451
+139,I'll Find an Ocean,Carly Thomas,-12.975,-9.222
+140,By Your Side,Carly Thomas,-10.245,-8.96
+141,Sink or Swim,Carly Thomas,-12.661,-11.054
+142,The Montreal Train Song,Carly Thomas,-9.902,-8.312
+143,Explode,Carly Thomas,-10.966,-8.959
+144,Fishface,Carly Thomas,-10.409,-8.265
+145,Miles Above,Carly Thomas,-9.6,-7.789
+146,Lightning Bolts,Carly Thomas,-18.591,-17.28
+147,Red as Wine,Carly Thomas,-7.066,-4.574
+150,Someone Else,Genevieve Fisher,-5.761,-3.758
+151,You Me We,Genevieve Fisher,-3.655,-1.932
+152,Take It on Home,Genevieve Fisher,-6.569,-4.767
+153,Between You and Me,Genevieve Fisher,-6.531,-5.25
+154,1943 (Nanna's Song),Genevieve Fisher,-5.368,-3.263
+155,Nothin' with You,Genevieve Fisher,-5.198,-3.963
+156,Outta Towners,Genevieve Fisher,-4.815,-3.698
+157,Blame It on You,Genevieve Fisher,-5.785,-3.987
+158,July,Genevieve Fisher,-5.358,-3.523
+159,Boy in a Boat,Genevieve Fisher,-2.698,-1.503
+160,Rise & Fall,Chad Price,-11.415,-7.724
+161,Oceans,Chad Price,-6.993,-4.419
+162,Ragged Bones,Chad Price,-7.946,-5.026
+163,Point to the Moon,Chad Price,-9.281,-4.473
+164,Little Light,Chad Price,-10.768,-7.676
+165,Descendants,Chad Price,-12.396,-7.366
+166,You Don't Know,Chad Price,-9.535,-8.212
+167,Home,Chad Price,-13.417,-8.966
+168,Renaissance,Chad Price,-11.084,-9.258
+169,Old Fashioned,Chad Price,-9.25,-7.831
+170,No Other,UNBLOOM,-5.332,-3.913
+171,Best Believe (feat. Connor Morand),UNBLOOM,-6.641,-3.857
+174,Lost Myself,UNBLOOM,-6.398,-4.875
+175,I Followed,UNBLOOM,-5.55,-3.969
+176,Parallel Hearts,UNBLOOM,-6.521,-5.211
+177,Chances,UNBLOOM,-6.655,-5.719
+178,They,UNBLOOM,-4.933,-2.273
+180,Anchor,Cameron Jericho,-10.865,-8.959
+181,Pariah,Cameron Jericho,-11.558,-8.204
+182,Rosalia,Cameron Jericho,-10.484,-9.115
+183,Starlight,Cameron Jericho,-12.282,-9.489
+184,Virginia Is for Lovers,Cameron Jericho,-8.82,-7.077
+185,I Feel Fine,Seaside Alibi,-10.826,-9.115
+186,Milky Way,Seaside Alibi,-8.899,-7.826
+187,Alone.,Seaside Alibi,-7.353,-6.407
+188,Daydream,Seaside Alibi,-10.64,-9.753
+189,Losing My Mind,Seaside Alibi,-10.012,-8.941
+190,Don't Go Rushin',Brighter Green,-6.832,-5.363
+191,Don't Get Me Wrong,Brighter Green,-5.815,-3.578
+192,Alright,Brighter Green,-5.739,-3.572
+193,Oh No,Brighter Green,-4.621,-2.475
+194,Bedroom,Brighter Green,-6.293,-3.211
+195,Going Down Easy,Brighter Green,-7.742,-4.59
+196,Last Bite,Brighter Green,-5.646,-3.297
+198,Shine Bright,Sarah Smith,-7.529,-5.035
+199,Runaway,Sarah Smith,-6.913,-5.313
+200,Angels and Anchors,Sarah Smith,-6.247,-4.725
+201,I Need to Know,Sarah Smith,-3.876,-2.579
+202,You Don't Get My Love,Sarah Smith,-4.953,-3.636
+203,Changing My Mind,Sarah Smith,-1.825,-0.727
+204,Undertow,Sarah Smith,-8.403,-3.537
+205,Aim,Sarah Smith,-6.201,-4.709
+206,Trust the Ride,Sarah Smith,-6.647,-5.018
+207,First Time,Sarah Smith,-5.231,-2.311
+208,Tell Me This Is Real,Daytrip,-8.135,-6.442
+209,Dancing in the Lobby,Daytrip,-5.773,-4.716
+210,December,Daytrip,-5.944,-4.074
+211,Small Talk,Daytrip,-5.847,-4.058
+212,Sleeping / ZzZz,Daytrip,-6.233,-4.212
+213,Everything I Could've Been,Daytrip,-6.314,-3.449
+214,Sleeping/Zzzz,Daytrip,-6.233,-4.212
+215,Monsters,Calvin Eberts,-7.225,-5.373
+216,Tears in My Whiskey,Calvin Eberts,-6.138,-5.067
+217,Best Friend,Calvin Eberts,-5.158,-3.814
+218,Moving to the Country,Calvin Eberts,-7.478,-6.512
+219,Good Day,Calvin Eberts,-6.144,-5.272
+220,Till' the Next One Comes Around,Calvin Eberts,-7.202,-5.88
+221,One Night Stand,Calvin Eberts,-5.19,-4.3
+222,Good As Gone,Calvin Eberts,-12.621,-11.679
+223,Forever,Calvin Eberts,-6.938,-5.074
+226,Stay Out,Averages,-7.008,-5.525
+227,Cigarette,Averages,-6.104,-3.117
+228,Break up Song,Averages,-5.835,-2.571
+229,"Into It, Over It",Averages,-5.331,0.004
+230,God Is a Habs Fan,Averages,-3.756,-0.448
+231,Tunnel Vision,Averages,-3.492,-0.402
+232,Johnny,Averages,-3.384,-1.35
+233,Boys Club,Ivory Hours,-6.399,-4.812
+234,Warpaint,Ivory Hours,-6.628,-4.585
+235,Dreamer,Ivory Hours,-5.412,-3.904
+236,House of Mirrors,Ivory Hours,-5.72,-3.518
+237,Blindsided,Ivory Hours,-5.529,-4.104
+238,Hello Honey,Ivory Hours,-8.661,-7.216
+239,Shadow Kids,Ivory Hours,-4.845,-3.531
+240,I Won't,Ivory Hours,-4.566,-2.495
+242,Dreamworld,Ivory Hours,-3.508,-0.514
+243,Gabrielle,Esther's Family,-11.841,-8.674
+244,Endlessly,Esther's Family,-8.882,-5.954
+245,Genial Rays,Esther's Family,-13.257,-6.66
+246,Nothing,Esther's Family,-12.089,-8.84
+247,Happiness,Esther's Family,-9.901,-7.876
+248,High Fantastical,Esther's Family,-13.763,-8.568
+249,Three Ships,Esther's Family,-12.356,-11.068
+250,Wonderful Christmastime,Esther's Family,-13.513,-10.139
+251,Wexford Carol / Soul Cake,Esther's Family,-12.325,-9.647
+252,We Wish You a Merry Christmas,Esther's Family,-12.293,-10.689
+253,Believe,Bruce Lecky Way,-6.7,-5.275
+254,Can't Lie,Bruce Lecky Way,-6.915,-4.53
+255,Down the Middle,Bruce Lecky Way,-6.846,-5.795
+256,Beside You,Bruce Lecky Way,-4.234,-1.876
+257,The Lion King Rap,Bruce Lecky Way,-5.619,-4.08
+258,Makes Me Strong,Bruce Lecky Way,-8.081,-7.234
+259,The Way Things Change,FIRE AT FIVE,-8.595,-6.53
+260,What Are You Running From,FIRE AT FIVE,-6.499,-4.355
+261,What Are You Running From - Demo,FIRE AT FIVE,-6.476,-3.26
+262,Back Room,FIRE AT FIVE,-6.675,-4.792
+263,Good Reason,FIRE AT FIVE,-8.518,-4.73
+264,Easy,FIRE AT FIVE,-5.932,-3.474
+265,Green Room,FIRE AT FIVE,-7.977,-5.152
+266,Insomnia,FIRE AT FIVE,-5.428,-4.427
+267,Let's be losers together,yungwillias,-13.41,-10.995
+269,slow down,yungwillias,-14.406,-10.991
+270,petals.,yungwillias,-8.399,-7.128
+272,our time with alice,yungwillias,-10.155,-8.674
+274,april showers bring may flowers,yungwillias,-8.001,-5.247
+275,i know you're watching me,yungwillias,-17.329,-16.314
+276,fiendin',yungwillias,-11.039,-9.211
+281,If I Know You,Justine Chantale,-7.316,-5.71
+282,Fly,Justine Chantale,-5.529,-2.516
+283,Running in Circles,Justine Chantale,-5.573,-3.567
+284,Make Some Noise,Justine Chantale,-3.477,-1.387
+285,Lamb in a Lion's Den (feat. Kyle Leistner),Justine Chantale,-8.162,-5.017
+286,Half Broken Heart,Justine Chantale,-5.632,-3.006
+287,The Prettiest,Justine Chantale,-5.36,-3.137
+288,Animal,Justine Chantale,-6.214,-3.838
+291,Did I,The Pairs,-9.036,-7.216
+292,FLY,The Pairs,-9.592,-7.521
+293,Wrong Side of Life,The Pairs,-11.905,-7.971
+294,Fallen,The Pairs,-9.594,-8.391
+295,Hand in Hand,The Pairs,-8.748,-7.002
+296,Woman,The Pairs,-7.632,-4.981
+297,I Learn,The Pairs,-9.13,-4.918
+298,Noise,The Pairs,-9.988,-7.191
+299,Let Me Fall,The Pairs,-8.599,-6.952
+300,Poison Water,The Pairs,-7.954,-6.488
+301,One Thousand Preys,Asante,-7.581,-6.64
+302,She Gon Let Me Down,Asante,-8.407,-6.875
+303,Diagonal,Asante,-8.887,-6.826
+304,Nobility,Asante,-6.915,-5.455
+305,Dutty Whine,Asante,-9.119,-7.737
+306,Reality,Asante,-11.648,-10.298
+307,King,Asante,-13.038,-10.987
+308,Is It,Asante,-6.879,-5.377
+311,Nimueh,Nimway,-7.664,-3.751
+312,Black Eyes Blue,Nimway,-4.024,-2.386
+313,The Words,Nimway,-4.936,-2.35
+314,Everything I Wanted,Nimway,-5.529,-3.551
+315,Red & Gold,Nimway,-7.085,-3.396
+316,"Short, Devious, Balding.",Hunter Gatherer,-6.132,-5.142
+317,Plaguebearer,Hunter Gatherer,-9.178,-7.516
+318,Logwalker,Hunter Gatherer,-6.902,-5.191
+319,Leap of Faces,Hunter Gatherer,-9.613,-8.839
+320,Hound's Leeches,Hunter Gatherer,-8.342,-5.623
+321,Crooked Jaw,Hunter Gatherer,-8.624,-7.646
+322,Little Green Monster,Hunter Gatherer,-7.593,-7.103
+323,Siltsifter,Hunter Gatherer,-10.514,-9.175
+324,Driftwood,Hunter Gatherer,-16.961,-14.821
+325,The Fraser Feeds the Cedars,Hunter Gatherer,-14.301,-13.063
+326,Dusklight,Fraser Teeple,-11.981,-10.708
+327,Believe in Love,Fraser Teeple,-10.95,-8.75
+328,Follow You Down,Fraser Teeple,-10.563,-8.916
+329,Something About Her,Fraser Teeple,-10.168,-7.016
+330,Folsom Prison,Fraser Teeple,-7.6,-5.058
+331,Hired Saw,Fraser Teeple,-8.198,-5.256
+332,Scarecrow,Kavara,-3.523,-2.817
+333,A Mind Betwixt,Kavara,-3.389,-2.679
+334,Mark My Words,Kavara,-3.095,-2.563
+335,Lawn Care,Kavara,-3.329,-2.72
+336,Let the Carnage Manifest,Kavara,-3.493,-3.067
+337,Killing Makes a Living,Kavara,-8.238,-6.947
+338,Death Sentence,Kavara,-3.508,-2.95
+339,Tormentor,Kavara,-3.38,-2.113
+340,Walk of Shame,Kavara,-3.17,-2.75
+341,The Reaper,Kavara,-3.376,-2.462
+342,"Caught In Time, So Far Away",You'll Never Get to Heaven,-5.385,-4.543
+343,Beyond the Clouds,You'll Never Get to Heaven,-9.667,-8.571
+344,Exquisite Tension,You'll Never Get to Heaven,-8.895,-7.973
+345,By This River,You'll Never Get to Heaven,-10.255,-7.105
+346,Shared Dreams,You'll Never Get to Heaven,-8.134,-6.626
+347,Adorn,You'll Never Get to Heaven,-5.786,-4.504
+348,Shadow Garden,You'll Never Get to Heaven,-9.664,-5.915
+349,Drowning Out,You'll Never Get to Heaven,-10.426,-8.045
+350,You've Got the Sun,You'll Never Get to Heaven,-9.345,-8.366
+351,Still,You'll Never Get to Heaven,-15.886,-13.202
+352,Gerry,Whoop-Szo,-9.275,-6.328
+353,Amaruq,Whoop-Szo,-8.936,-7.465
+354,Homemade Candles,Whoop-Szo,-9.197,-7.676
+355,Long Braided Hair,Whoop-Szo,-9.917,-8.753
+356,2CB,Whoop-Szo,-10.965,-6.535
+357,Oda Man,Whoop-Szo,-10.775,-8.11
+358,Cut Your Hair,Whoop-Szo,-21.638,-20.31
+359,All My Friends,Whoop-Szo,-8.015,-5.731
+360,6.1//6.2,Whoop-Szo,-15.835,-13.948
+361,Nshwaaswi,Whoop-Szo,-6.358,-4.657
+362,"Yes, I Believe I Would.",Para Palabras,-9.848,-6.07
+363,I've Been Waiting All Night,Various Artists,-7.816,-3.896
+364,Seagull,Para Palabras,-19.705,-15.569
+365,Freezing - Zachary Gray Remix,Para Palabras,-11.966,-10.5
+366,Aquarium,Various Artists,-8.459,-3.507
+367,East Hastings,Para Palabras,-12.018,-7.092
+368,The Years - Para Palabras Remix,Zachary Gray,-9.351,-3.601
+369,Inbound,Para Palabras,-8.273,-2.79
+370,Speedboat,Para Palabras,-10.03,-2.354
+371,Let's Heal the Divide,Para Palabras,-7.902,-6.278
+372,You Are Ahead by Centurion,Yeah Bud!!!,-4.179,-2.747
+373,Waste My Daze,Yeah Bud!!!,-7.959,-7.365
+374,Teen Stash,Yeah Bud!!!,-8.618,-7.64
+375,Back Porch,Yeah Bud!!!,-6.368,-5.93
+376,Why??,Yeah Bud!!!,-11.183,-9.093
+377,H.F.S.!!!,Yeah Bud!!!,-8.122,-5.72
+378,Insufficient Fun,Yeah Bud!!!,-8.467,-6.978
+379,No Love,Lil TK,-11.851,-10.83
+380,Walk Away,Lil TK,-10.754,-9.204
+381,Anemic,Lil TK,-13.528,-11.807
+382,Run Back,Lil TK,-15.02,-13.69
+383,I Wanna,Lil TK,-15.578,-12.89
+384,Idny,Lil TK,-14.948,-13.45
+385,Fuk the Rules,Lil TK,-19.676,-17.654
+386,Never Coming Home,Mountain of Wolves,-6.576,-5.345
+387,Don't Call My Name,Mountain of Wolves,-6.114,-4.033
+388,Something in the Water,Mountain of Wolves,-5.62,-4.462
+389,Poison,Mountain of Wolves,-6.904,-5.188
+390,Blue Jeans,Mountain of Wolves,-7.495,-4.757
+391,Grind Your Teeth,Mountain of Wolves,-5.097,-3.462
+392,Sides,Mountain of Wolves,-12.988,-6.194
+393,Passenger Seat,Mountain of Wolves,-5.649,-2.917
+394,Storm,Mountain of Wolves,-9.185,-6.297
+395,Toronto,Mountain of Wolves,-8.467,-5.37
+396,Chasin' You,Patrick James Clark,-9.594,-7.938
+397,Broken Hearts & Getaway Cars,Patrick James Clark,-7.575,-5.779
+398,Yacht Money,Patrick James Clark,-8.693,-6.667
+399,Photos of You,Patrick James Clark,-7.759,-6.536
+400,Lovin' by My Side,Five Oceans,-6.556,-4.676
+401,Over You by Now,Five Oceans,-7.452,-4.898
+402,Rambler,Five Oceans,-6.395,-3.627
+403,Me & You,Five Oceans,-7.702,-6.573
+404,Enjoyed My Time,Five Oceans,-7.123,-5.344
+405,Butt Naked,Five Oceans,-8.514,-6.55
+406,Oh Boy,Five Oceans,-7.673,-6.052
+407,Dangerous,Five Oceans,-8.296,-5.491
+408,I'm Gone,Five Oceans,-9.604,-8.517
+409,Hell Don't Know,Five Oceans,-7.77,-5.838
+410,On the Road Again,Hank's Dream,-18.571,-16.381
+411,About Yourself (Chrw Session),Hank's Dream,-7.955,-5.868
+412,Because It's You,Hank's Dream,-20.188,-16.654
+413,Miss You,Hank's Dream,-15.6,-14.097
+414,A Little More Time,The Drew Thomson Foundation,-5.262,-3.684
+415,Barbed Wire,The Drew Thomson Foundation,-5.389,-4.597
+416,Stay,The Drew Thomson Foundation,-6.023,-4.041
+417,Karma,The Drew Thomson Foundation,-6.334,-5.094
+418,L.A. Lately,The Drew Thomson Foundation,-6.322,-5.606
+419,Pace Yourself,The Drew Thomson Foundation,-7.347,-5.863
+420,Break,The Drew Thomson Foundation,-5.623,-4.235
+421,Centrefold,The Drew Thomson Foundation,-4.752,-4.04
+422,Phone Ring,The Drew Thomson Foundation,-4.864,-2.927
+423,Broken Window,The Drew Thomson Foundation,-5.486,-3.736
+424,Winter Coats,Single Mothers,-3.136,-2.017
+425,Half-Lit,Single Mothers,-3.324,-2.892
+426,Money,Single Mothers,-3.659,-2.356
+427,Hell Is My Backup Plan,Single Mothers,-3.625,-2.318
+428,Marbles,Single Mothers,-2.559,-2.088
+429,Christian Girls,Single Mothers,-2.601,-1.76
+430,Ketamine,Single Mothers,-2.842,-2.309
+431,Overdose,Single Mothers,-3.473,-2.538
+432,Marathon,Single Mothers,-2.648,-2.203
+433,Patricide,Single Mothers,-1.526,-0.938
+434,Transatlantic,Zachary Gray,-12.294,-8.74
+435,A Desolate Ping,Zachary Gray,-12.013,-9.827
+436,Local Talent,Zachary Gray,-8.382,-6.961
+437,Red Sky (Morning),Zachary Gray,-10.426,-8.425
+438,Gaspé,Zachary Gray,-9.012,-6.802
+439,Float Beneath,Zachary Gray,-15.506,-11.416
+440,Those Bitter Depths,Zachary Gray,-18.852,-11.946
+441,Swinging Sealand,Zachary Gray,-12.078,-10.021
+442,Red Sky (Night),Zachary Gray,-12.733,-10.647
+443,Willow Tree,Zachary Gray,-6.708,-5.199
+444,Girls Step Up,Sum-01,-7.639,-7.185
+445,Black Betty,Sum-01,-9.188,-8.438
+446,Get It,Sum-01,-9.597,-8.814
+447,Down With the System,Sum-01,-9.369,-8.347
+448,The Crown,Sum-01,-10.271,-9.849
+449,Warzone,Sum-01,-9.586,-8.682
+450,Infinity War,Sum-01,-10.842,-9.573
+451,Comeback Kid,Sum-01,-9.518,-8.561
+452,Back in Tha Day,Sum-01,-7.996,-7.135
+453,Your Love,Sum-01,-11.903,-10.698
+454,Modern Decay,Heart Attack Kids,-2.964,-2.034
+455,The Driver,Heart Attack Kids,-3.049,-2.454
+456,Can't Stop,Heart Attack Kids,-6.855,-5.665
+457,Platonic Love Bome,Heart Attack Kids,-3.106,-1.889
+458,Do What You Do,Heart Attack Kids,-3.125,-2.201
+459,Bad Luck Like Gold,Heart Attack Kids,-2.826,-2.163
+460,Deaf Dogs,Heart Attack Kids,-2.943,-2.037
+461,Eh Ok,Heart Attack Kids,-1.606,-0.709
+462,Running on Empty,Heart Attack Kids,-3.773,-2.526
+463,B.R.B.,Heart Attack Kids,-4.046,-3.434
+464,Day After Day,Westminster Park,-19.014,-17.124
+465,Drunk on You,Westminster Park,-25.577,-23.599
+466,I Just Wanna Get Home Tonight (A Prayer to City Planners),Westminster Park,-14.908,-12.627
+467,Tequila Sunrise (Head Like My Heart),Westminster Park,-20.098,-17.495
+468,Girl in the Navy Blue Cardigan,Westminster Park,-17.46,-16.425
+469,The Books I Read,Westminster Park,-7.193,-6.556
+470,New Pair of Shoes,Westminster Park,-6.354,-5.465
+471,Metamorphosis - Instrumental,Westminster Park,-14.888,-12.728
+472,Auld Lang Syne,Westminster Park,-10.203,-8.806
+473,It's Our Love,Westminster Park,-6.15,-3.849
+475,Stella,Yessica Woahneil,-10.288,-8.285
+476,Lunchbox,Yessica Woahneil,-14.049,-12.256
+477,Washing on Shore,Yessica Woahneil,-14.013,-11.119
+478,"Hands up, Hips Thrust",Yessica Woahneil,-15.539,-13.649
+479,Nobody Else Like We,Yessica Woahneil,-10.502,-7.49
+480,Alive Again,Yessica Woahneil,-13.151,-9.105
+481,Your flame shines bright,Yessica Woahneil,-21.408,-16.141
+482,Tiny Telescopic Treasure,Yessica Woahneil,-14.115,-11.351
+483,I'll be with you,Yessica Woahneil,-25.223,-22.379
+484,Mri,Various Artists,-11.719,-10.48
+485,Still My Love,Various Artists,-7.513,-6.026
+486,Tip Toe,O'Haara,-7.723,-5.979
+487,Morning Faker,O'Haara,-6.93,-4.73
+488,Leave - O'Haara Remix,Zachary Gray,-10.444,-8.283
+489,Visiting Hours - Zachary Gray Remix,Various Artists,-6.993,-5.789
+490,Big High,O'Haara,-15.551,-14.715
+491,Lore,O'Haara,-9.469,-7.854
+492,009-012 - O'Haara Rework,Various Artists,-8.323,-7.132
+493,Second Try,O'Haara,-7.166,-5.922
+494,Starless Nights,Misha Bower,-12.592,-9.939
+495,Trying to Have It All,Misha Bower,-12.411,-10.278
+496,Love That's Loose,Misha Bower,-11.814,-7.866
+497,Misery's Faint Glimmer,Misha Bower,-12.754,-8.598
+498,Man of Thirty,Misha Bower,-15.047,-7.667
+499,Hostage Taker,Misha Bower,-10.695,-7.934
+500,Bad Old Days,Misha Bower,-13.644,-9.193
+501,I'm All About,Misha Bower,-13.281,-9.847
+502,Coming in Last,Misha Bower,-11.86,-8.103
+503,Amaruq - Jesney Remix,Whoop-Szo,-7.697,-5.556
+504,Get Behind Your Feelings,Various Artists,-13.29,-7.758
+505,Acid Water,Jesney,-10.991,-7.715
+506,Remembering You,Various Artists,-5.573,-2.737
+507,Cabin Fever,Jesney,-11.677,-8.207
+508,Ventilator,Jesney,-11.554,-9.385
+509,The Daily Struggle,Various Artists,-9.302,-6.904
+510,Midnight Vice,Various Artists,-14.682,-13.062
+511,That Happy Place,Jesney,-12.679,-10.449
+512,In the Trenches,Jesney,-10.875,-7.117
+513,No Anchors,Specks,-6.366,-5.944
+514,Oh Hell,Specks,-6.036,-5.438
+515,A Fistful of Fifties and a Day Without Fear,Specks,-5.258,-5.051
+516,Old Horses,Specks,-5.099,-4.842
+517,Pathos Ethos,Specks,-5.957,-4.871
+518,Low Score,Specks,-5.17,-5.014
+519,Pick Up Your Teeth,Specks,-6.075,-5.63
+520,Raise a Hallelujah,sxxnt.,-6.615,-4.465
+521,u brought heaven down,sxxnt.,-11.416,-6.692
+522,Holy Spirit,sxxnt.,-7.088,-6.001
+523,Middle of the Mystery,sxxnt.,-4.66,-3.441
+524,u can do all things,sxxnt.,-7.147,-4.659
+526,Endless Love,sxxnt.,-17.602,-9.503
+527,Promise Keeper,sxxnt.,-7.091,-6.236
+528,Where my heart becomes free,sxxnt.,-7.931,-6.26
+530,Sigaretta,FK,-16.376,-15.354
+531,Scelte Sbagliate,FK,-16.277,-14.623
+532,Demoni,FK,-13.47,-12.569
+533,Sabbia,FK,-14.496,-13.125
+534,Corazza,FK,-14.219,-13.118
+535,Birra e Vodka,FK,-13.911,-12.45
+536,Cuore in pegno,FK,-15.084,-10.824
+537,Apparire,FK,-16.307,-14.886
